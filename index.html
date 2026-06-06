@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Primer Proyecto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <span class="logo">🚀 MiProyecto</span>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>Hola, soy <span class="nombre">Jen</span> 👋</h1>
+      <p>Este es mi primer proyecto subido a GitHub. ¡Lo estoy aprendiendo!</p>
+      <a href="#sobre-mi" class="btn">Conóceme</a>
+    </div>
+    <div class="hero-img">💻</div>
+  </section>
+
+  <section class="sobre-mi" id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>Estudiante</h3>
+        <p>Aprendiendo desarrollo web y control de versiones con Git y GitHub.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💡</div>
+        <h3>Curiosa</h3>
+        <p>Me gusta explorar nuevas tecnologías y herramientas de desarrollo.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌱</div>
+        <h3>En crecimiento</h3>
+        <p>Cada día aprendo algo nuevo. Este proyecto es parte de ese camino.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contador" id="contacto">
+    <h2>Contador interactivo</h2>
+    <p>Prueba el botón 😄</p>
+    <div class="contador-box">
+      <button id="btn-menos">−</button>
+      <span id="numero">0</span>
+      <button id="btn-mas">+</button>
+    </div>
+    <button id="btn-reset">Reiniciar</button>
+  </section>
+
+  <footer>
+    <p>Hecho con ❤️ por Jen · Subido a GitHub · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
